@@ -1,12 +1,12 @@
 {
-    "name": "agencycoda/mia-core-mezzio",
+    "name": "doroteati/mia-core-mezzio",
     "description": "The library for Mezzio",
     "version": "0.0.22",
     "minimum-stability": "stable",
     "license": "MIT",
     "authors": [{
-        "name": "Matias Camiletti",
-        "homepage": "https://agencycoda.com"
+        "name": "Heider Hernandez",
+        "homepage": "https://dorotea.co"
     }],
     "require": {
         "php": ">=7.3",
@@ -14,11 +14,11 @@
         "psr/http-message": "^1.0.1",
         "psr/http-server-middleware": "^1.0",
         "laminas/laminas-diactoros": "^2.5",
-        "google/cloud-error-reporting": "^0.18.2",
-        "google/cloud-logging": "^1.21",
-        "google/cloud-storage": "^1.23",
+        "google/cloud-error-reporting": "^0.20.1",
+        "google/cloud-logging": "^1.27",
+        "google/cloud-storage": "^1.32",
         "zircote/swagger-php": "^3.1",
-        "google/cloud-tasks": "^1.9"
+        "google/cloud-tasks": "^1.12"
     },
     "autoload": {
         "psr-4": {
